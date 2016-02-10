@@ -1,0 +1,145 @@
+    1  /Applications/Live\ 8.2.8/Patch/Contents/MacOS/iPatcher ; exit;
+    2  /Users/corbin/Desktop/Ableton/Now\ It\ Can\ Be\ Told/AbletonTmp-0000 ; exit;
+    3  ipconfig
+    4  github
+    5  git clone https://github.com/jashkenas/coffee-script.git
+    6  git clone https://github.com/jashkenas/coffee-script.git jeremys-coffee
+    7  cd my-proj/
+    8  git init
+    9  cd my-proj/
+   10  cd my-proj/ git init
+   11  git config --list
+   12  > git remote
+   13  origin
+   14  > git remote origin
+   15  git remote show origin
+   16  github
+   17  git clone https://github.com/jashkenas/coffee-script.git
+   18  git clone https://github.com/jashkenas/coffee-script.git jeremys-coffee
+   19  cd my-proj/ git init
+   20  git config --list
+   21  git config --help
+   22  > git remote origin
+   23  git clone https://github.com/jashkenas/coffe-script.git
+   24  cd myproj/
+   25  cd ..
+   26  cd jeremys-coffee
+   27  cd Untitled 1
+   28  cd Users
+   29  cd users
+   30  cd ..
+   31  cd corbin/jeremys-coffee
+   32  cd my-proj/
+   33  cd my-proj/ git init
+   34  git init
+   35  cd ..
+   36  cd GitHub
+   37  cd github
+   38  cd corbin
+   39  cd github
+   40  cd my-proj
+   41  git init
+   42  git config --list
+   43  git config --help
+   44  git remote
+   45  > git remote
+   46  git remote
+   47  git
+   48  git remote
+   49  git clone https://github.com/jashkenas/coffee-script.git jeremys-coffee
+   50  git remote
+   51  >git remote
+   52  > git remote
+   53  cd jeremys-coffee
+   54  git remote
+   55  git remote show origin
+   56  git branch
+   57  git checkout master
+   58  git pull --rebase
+   59  git fetch
+   60  git rebase origin/master master
+   61  git checkout master
+   62  git checkout -b 1234_sales_tax_calculations
+   63  git checkout -b 1234_sales_tax_calculations master
+   64  git add
+   65  git add .
+   66  git add lib/
+   67  git add spec/fool1_spec.rb
+   68  git add spec/foo1_spec.rb
+   69  git add spec/foo2_spec.rb
+   70  git rm path/to/file
+   71  git rm -r path/to/directory/
+   72  git add -u
+   73  git add -u lib/
+   74  git commit -m "Implemented the Michigan sales tax calculations [#1234]"
+   75  git commit -am "Refactoring SalesTaxHelper into SalesTax module [#1234]"
+   76  git add README
+   77  git commit --amend
+   78  git clone https://github.com/jashkenas/coffee-script.git jeremys-coffee
+   79  cd jeremys-coffee
+   80  git remote
+   81  git remote show origin
+   82  git fetch
+   83  git fetch origin
+   84  git branch
+   85  git checkout master
+   86  git pull --rebase
+   87  git fetch
+   88  git rebase origin/master master
+   89  git checkout master
+   90  git checkout -b 1234_sales_tax_calculations
+   91  git add .
+   92  git add lib/
+   93  git add spec/foo1_spec.rb
+   94  git add spec/foo2_spec.rb
+   95  git rm path/to/file
+   96  git rm -r path/to/directory/
+   97  git add -u .
+   98  git add -u lib/
+   99  git commit -m "Implemented the Michigan sales tax calculations [#1234]"
+  100  git commit -am "Refactoring SalesTaxHelper into SalesTax module [#1234]"
+  101  git add README
+  102  git commit --amend
+  103  cd coffee-script
+  104  git init
+  105  git config --help
+  106  cd coffee-script
+  107  git init
+  108  git config --list
+  109  git remote
+  110  git remote show origin
+  111  git fetch
+  112  git fetch origin
+  113  git branch
+  114  git checkout master
+  115  git pull --rebase
+  116  git rebase origin/master master
+  117  git checkout master
+  118  git checkout -b 1234_sales_tax_calculations
+  119  git add .
+  120  git add lib/
+  121  git add spec/foo1_spec.rb
+  122  git add spec/foo2_spec.rb
+  123  git rm path/to/file
+  124  git rm -r path/to/directory/
+  125  git add -u
+  126  git add -u lib/
+  127  git commit -m "Implemented the Michigan sales tax calculations [#1234]"
+  128  git commit -am "Refactoring SalesTaxHelper into SalesTax module [#1234]"
+  129  git add README
+  130  git push --set-upstream origin 1234_sales_tax_calculations
+  131  git push
+  132  git checkout master
+  133  git pull --rebase
+  134  git checkout 1234_sales_tax_calculations
+  135  git push
+  136  git rebase master
+  137  git add lib/sales_tax.rb
+  138  git rebase --continue
+  139  git push -f
+  140  git checkout master
+  141  git merge 1234_sales_tax_calculations
+  142  git push
+  143  $ history > reisz_assign3b.txt
+  144  $ git log > reisz_assign2b.txt
+  145  history > reisz_assign2b.txt

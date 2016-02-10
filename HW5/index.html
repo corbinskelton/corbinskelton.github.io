@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>HW5 | Corbin Skelton</title>
+
+    <link href="BootStrap Blog/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/blog-home.css" rel="stylesheet">
+    
+    <link href="http://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script> 
+
+</head>
+<body class="list-group" ng-controller="StoreController as store">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">HW5</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <a href="startbootstrap-blog-post-1.0.4/index.html" style="padding-right: 20px"></a>
+
+        <div>
+            <div id="Tutorial_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="Tutorial_length"><label>Show <select name="Tutorial_length" aria-controls="Tutorial" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="Tutorial_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="Tutorial"></label></div><table id="Tutorial" class="dataTable no-footer" role="grid" aria-describedby="Tutorial_info">
+                <thead>
+                    <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="Tutorial" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Image: activate to sort column descending" style="width: 361px;">Image</th><th class="sorting" tabindex="0" aria-controls="Tutorial" rowspan="1" colspan="1" aria-label="Title: activate to sort column ascending" style="width: 186px;">Title</th><th class="sorting" tabindex="0" aria-controls="Tutorial" rowspan="1" colspan="1" aria-label="Author: activate to sort column ascending" style="width: 221px;">Author</th><th class="sorting" tabindex="0" aria-controls="Tutorial" rowspan="1" colspan="1" aria-label="URL: activate to sort column ascending" style="width: 228px;">URL</th></tr>
+                </thead>
+                <tbody>
+                    
+
+                <tr class="single odd ng-scope" ng-repeat="tutorial in list.tutorials" role="row">
+
+                        <td class="sorting_1"><img class="image" src="http://tutorials.jenkov.com/images/layout/small-portrait_mini.jpg">
+                        </td>
+                        <td class="ng-binding">AngularJS Tutorial</td>
+                        <td class="ng-binding">Jakob Jenkov</td>
+                        <td><a class="btn btn-info btn-lg" href="http://tutorials.jenkov.com/angularjs/index.html" target="_blank">Visit Site!</a></td>
+
+                    </tr>
+                    
+                    <tr class="single odd ng-scope" ng-repeat="tutorial in list.tutorials" role="row">
+
+                        <td class="sorting_1"><img class="image" src="http://blog.guinatal.com/wp-content/uploads/2015/01/angularjs.png">
+                        </td>
+                        <td class="ng-binding">Learn AngularJS With These 5 Practical Examples</td>
+                        <td class="ng-binding">JMartin Angelov</td>
+                        <td><a class="btn btn-info btn-lg" href="http://tutorialzine.com/2013/08/learn-angularjs-5-examples/" target="_blank">Visit Site!</a></td>
+
+                    </tr>
+                    
+                    <tr class="single odd ng-scope" ng-repeat="tutorial in list.tutorials" role="row">
+
+                        <td class="sorting_1"><img class="image" src="http://blog.guinatal.com/wp-content/uploads/2015/01/angularjs.png">
+                        </td>
+                        <td class="ng-binding">AngularJS CRUD application demo</td>
+                        <td class="ng-binding">angular-app</td>
+                        <td><a class="btn btn-info btn-lg" href="https://github.com/angular-app/angular-app" target="_blank">Visit Site!</a></td>
+
+                    </tr>
+                    
+                    <tr class="single odd ng-scope" ng-repeat="tutorial in list.tutorials" role="row">
+
+                        <td class="sorting_1"><img class="image" src="https://0.gravatar.com/avatar/8ef3e73105c63fcac882115c9ad346f2?s=100">
+                        </td>
+                        <td class="ng-binding">AngularJS Tutorial - Building a Web App in 5 minutes</td>
+                        <td class="ng-binding">Nick Kaye</td>
+                        <td><a class="btn btn-info btn-lg" href="https://www.airpair.com/angularjs/building-angularjs-app-tutorial" target="_blank">Visit Site!</a></td>
+
+                    </tr>
+                    
+                    <tr class="single odd ng-scope" ng-repeat="tutorial in list.tutorials" role="row">
+
+                        <td class="sorting_1"><img class="image" src="http://www.toptal.com/uploads/user/photo/256/small_1233500_508166272610903_1884720025_n.jpg">
+                        </td>
+                        <td class="ng-binding">A Step-by-Step Guide to Your First AngularJS App</td>
+                        <td class="ng-binding">Raoni Boaventura</td>
+                        <td><a class="btn btn-info btn-lg" href="http://www.toptal.com/angular-js/a-step-by-step-guide-to-your-first-angularjs-app" target="_blank">Visit Site!</a></td>
+
+                    </tr>
+                    
+                    <tr class="single odd ng-scope" ng-repeat="tutorial in list.tutorials" role="row">
+
+                        <td class="sorting_1"><img class="image" src="http://blog.guinatal.com/wp-content/uploads/2015/01/angularjs.png">
+                        </td>
+                        <td class="ng-binding">Angularjs -- Workshop</td>
+                        <td class="ng-binding">Santiago Esteva</td>
+                        <td><a class="btn btn-info btn-lg" href="http://ng-learn.org/tags/workshop.html" target="_blank">Visit Site!</a></td>
+
+                    </tr>
+                    
+                    <tr class="single odd ng-scope" ng-repeat="tutorial in list.tutorials" role="row">
+
+                        <td class="sorting_1"><img class="image" src="http://blog.guinatal.com/wp-content/uploads/2015/01/angularjs.png">
+                        </td>
+                        <td class="ng-binding">AngularJS in 20ish Minutes </td>
+                        <td class="ng-binding">Dan Wahlin</td>
+                        <td><a class="btn btn-info btn-lg" href="https://www.youtube.com/watch?v=tnXO-i7944M" target="_blank">Visit Site!</a></td>
+
+                    </tr>
+                    
+                    <tr class="single odd ng-scope" ng-repeat="tutorial in list.tutorials" role="row">
+
+                        <td class="sorting_1"><img class="image" src="https://irodriguezm.files.wordpress.com/2009/12/logo_mva.png">
+                        </td>
+                        <td class="ng-binding">Introduction to AngularJS</td>
+                        <td class="ng-binding">Microsoft Virtual Academy</td>
+                        <td><a class="btn btn-info btn-lg" href="http://www.microsoftvirtualacademy.com/training-courses/introduction-to-angularjs" target="_blank">Visit Site!</a></td>
+
+                    </tr>
+                    
+                    </tbody>
+                    
+            </table><div class="dataTables_info" id="Tutorial_info" role="status" aria-live="polite">Showing 1 to 1 of 1 entries</div><div class="dataTables_paginate paging_simple_numbers" id="Tutorial_paginate"><a class="paginate_button previous disabled" aria-controls="Tutorial" data-dt-idx="0" tabindex="0" id="Tutorial_previous">Previous</a><span><a class="paginate_button current" aria-controls="Tutorial" data-dt-idx="1" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="Tutorial" data-dt-idx="2" tabindex="0" id="Tutorial_next">Next</a></div></div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.js"></script>
+        <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="http://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="angular.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+
+
+    </div>
+
+
+    <div>      
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Corbin Skelton 2016</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
